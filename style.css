@@ -1,0 +1,44 @@
+body { 
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    height: 30px;
+    color: white;
+}
+
+.area-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    width: 25em;
+    background-color: #fff;
+    border-radius: 2.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+div {
+    padding: 8px;
+}
+
+#imagem {
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+footer {
+    margin-top: .8rem;
+    color: white;
+    font-style: italic;
+}
